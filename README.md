@@ -37,5 +37,22 @@
 2. Run the script:
    ```bash
    python scripts/fetch_cpi.py
+## Expected Output
+
+1. **Terminal**:
+   - Last 4 quarters of US inflation will be displayed.
+
+2. **Graph**:
+   - A graph showing the Consumer Price Index (CPI) trend will be generated.
+
+### Example terminal output:
+
+```plaintext
+Last 4 Quarters of US Inflation:
+Quarter      CPI  Quarterly Inflation
+2023Q1    301.74             1.05
+2023Q2    304.00             0.75
+2023Q3    307.28             1.08
+2023Q4    308.74             0.47
    
 
