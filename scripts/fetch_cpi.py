@@ -1,6 +1,6 @@
 import os
 import sys
-from cpi_utils import fetch_cpi_data, calculate_quarterly_inflation
+from src.cpi_utils import fetch_cpi_data, calculate_quarterly_inflation
 import matplotlib.pyplot as plt
 
 def main():
