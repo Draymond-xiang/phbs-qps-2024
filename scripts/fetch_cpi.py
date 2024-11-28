@@ -1,12 +1,12 @@
 import os
 import sys
-from src.cpi_utils import fetch_cpi_data, calculate_quarterly_inflation
+from cpi_utils import fetch_cpi_data, calculate_quarterly_inflation
 import matplotlib.pyplot as plt
 
 # Ensure the script can access modules in the src directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
 sys.path.append(os.path.join(parent_dir, "src"))
-sys.path.append(parent_dir)
 
 def main():
     # Fetch CPI data
