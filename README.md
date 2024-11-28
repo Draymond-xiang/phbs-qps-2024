@@ -33,7 +33,9 @@
    venv\Scripts\activate   # Windows
    source venv/bin/activate  # macOS/Linux
 #### Step 3: Run the Script
-1. Locate scripts/fetch_cpi.py in VS Code.
+1. Locate **scripts/fetch_cpi.py** in VS Code.
 2. Run the script:
+   ```bash
+   python scripts/fetch_cpi.py
    
 
